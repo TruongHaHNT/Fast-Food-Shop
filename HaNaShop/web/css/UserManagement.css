@@ -1,0 +1,28 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 1, 2020, 9:25:24 AM
+    Author     : SE130204
+*/
+
+.ManagerUserPage{
+    width: 100%;
+    min-height: 300px;
+    position: relative;
+    float: left;
+    background: bisque;
+}
+.ManagerUserPage table{
+    text-align: center;
+    background: white;
+    margin: 50px;
+}
+.ManagerUserPage table input{
+    font-size: 20px;
+    border: 1px solid black;
+    background: crimson;
+    color: white;
+}

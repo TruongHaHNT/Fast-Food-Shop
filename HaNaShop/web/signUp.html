@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Sign Up</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/Tool.css" type="text/css">
+    </head>
+    <body>
+        <div class="sidenav">
+         <div class="login-main-text">
+            <h2>HaNa Shop<br> Login Page</h2>
+            <p>Login or register from here to access.</p>
+         </div>
+      </div>
+      <div class="main">
+         <div class="col-md-6 col-sm-12">
+            <div class="login-form">
+                <a href="homePage">Go back to Home Page</a><br>
+                <form action="SignUp" method="POST">
+                  <div class="form-group">
+                     <label>Mail</label><br>
+                     <input type="text" name="txtEmail" value="" class="form-control" placeholder="User Mail">
+                  </div>
+                    <div class="form-group">
+                     <label>User Name</label><br>
+                     <input type="text" name="txtUserName" value="" class="form-control" placeholder="User Name">
+                  </div>
+                  <div class="form-group">
+                     <label>Password</label><br>
+                     <input type="password" name="txtPassword" value="" class="form-control" placeholder="Password">
+                  </div>
+                    <div class="form-group">
+                     <label>Confirm</label><br>
+                     <input type="password" name="txtConfirm" value="" class="form-control" placeholder="   Confirm">
+                  </div>
+                    <input type="submit" name="btAction" value="Sign Up" class="btn btn-black"/>
+                    <input type="reset" value="Reset"/>
+                    <input type="hidden" name="txtRole" value="Customer"/>
+                    <input type="hidden" name="txtStatus" value="New"/>
+               </form><br>
+                <a href="ShowLogin">Login</a>
+            </div>
+         </div>
+      </div>
+    </body>
+</html>

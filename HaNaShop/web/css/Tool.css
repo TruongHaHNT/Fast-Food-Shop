@@ -1,0 +1,406 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	background-color: lightgray;
+}
+
+.containerMain{
+	max-width: 1280px;
+	height: auto;
+	background-color: #fff;
+        overflow: hidden;
+}
+input{
+    cursor: pointer;
+}
+/*___SEARCH INFO___***********************************************************************/
+.info{
+	width: 100%; height: 180px; background-color: burlywood; overflow: hidden;
+}
+.logo{
+	width: 380px; height: 99%; float: left; margin: 0px auto;
+	overflow: hidden;
+}
+.search{
+	width: 550px; height: 100%; float: left; position: relative; overflow: hidden;
+        padding: 15px 20px;
+        color: #fff;
+}
+.search .advSearchBox{
+    float: left; width: 99%;
+    background: #000;
+    opacity: 0.6;
+}
+.search .advSearchBox d{
+    background:  #000;
+    border-radius: 15px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px; 
+}
+
+.search .advSearchBox #txtsearch{
+  width: 80%;
+  margin: 10px; 
+  font-size: 18px;
+  color: white;
+  display: inline-block;
+  background: black;
+  border: 1px solid white;
+  box-sizing: border-box;
+  font-weight: bold;
+}
+.search .advSearchBox input[type=submit]{
+    margin:10px 10px 0px 0px;
+    float: right;
+    background-size: cover; width: 32px; height: 32px; border-radius: 25px
+}
+.search .advSearchBox #cat{
+  width: 50%;
+  font-size: 18px;
+  margin: 10px; 
+  color: white;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+  background: black;
+  font-weight: bold;
+}
+.search .advSearchBox .txtMoney{
+  width: 20%;
+  margin: 10px; 
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+  color: white;
+  background: black;
+  font-weight: bold;
+}
+.search .advSearchBox .txtDate{
+  width: 30%;
+  margin: 10px; 
+  font-size: 18px;
+  display: inline-block;
+  border: 1px solid white;
+  box-sizing: border-box;
+  color: white;
+  background: black;
+  font-weight: bold;
+}
+.search .advSearchBox #errorMoneyRange{
+    background: red;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+}
+.search .advSearchBox #errorDateRange{
+    background: red;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+    visibility: hidden;
+    margin: 10px
+}
+.search .advSearchBox #status{
+        width: 40%;
+      font-size: 18px;
+      margin: 10px; 
+      color: white;
+      display: inline-block;
+      border: 1px solid white;
+      box-sizing: border-box;
+      background: black;
+      font-weight: bold;
+}
+
+/* login / sign up **************************************************************************************/
+.login{
+    width: 250px;
+    height: 180px;
+	float: right;
+	margin-right: 50px;
+}
+.login button{
+	background-color: brown;
+	color:  white;
+	padding: 14px 20px;
+	margin-top:  79px;
+	border: none;
+	cursor: pointer;
+	width: 100%;
+}
+button:hover {
+	opacity: 0.8;
+}
+.logout{
+    z-index: 1;
+    width: 350px;
+    height: 180px;
+    margin-right: 100px;
+    float: right;
+    position: absolute;
+}
+
+
+/***************************************************************************************************************/
+.sidenav {
+    height: 100%;
+    background-color: wheat;
+    overflow-x: hidden;
+}
+.form-group .form-control{
+    width: 380px;
+    height: 20px;
+    margin: 0px 10px;
+}
+
+.main {
+    padding: 10px 10px;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+}
+
+@media screen and (max-width: 450px) {
+    .login-form{
+        margin-top: 10%;
+    }
+r
+    .register-form{
+        margin-top: 10%;
+    }
+}
+
+@media screen and (min-width: 768px){
+    .main{
+        margin-left: 40%; 
+    }
+
+    .sidenav{
+        width: 40%;
+        position: fixed;
+        z-index: 1;
+        top: 0;
+        left: 0;
+    }
+
+    .login-form{
+        margin-top: 30%;
+    }
+
+    .register-form{
+        margin-top: 20%;
+    }
+}
+.login-main-text{
+    margin-top: 20%;
+    padding: 60px;
+    color: #76323F;
+}
+
+.login-main-text h2{
+    font-weight: 300;
+}
+
+.btn-black{
+    background-color: #000 !important;
+    color: #fff;
+}
+/***___Header__**************************************************************************************************/
+
+nav{
+	width: 100%;
+	height: 50px;
+	background-color: #76323F;
+        position: relative;
+        color: white;
+        float: left;
+}
+nav .navReturn{
+    height: 50px;
+    font-size: 20px;
+    border: 1px solid black;
+    background: brown;
+    color: white;
+    float: left;
+}
+nav .navReturn:hover{
+    background: aliceblue;
+    color: brown;
+}
+nav h1{
+    margin-left: 20px;
+    color: white;
+    height: 50px;
+    float: left;
+    line-height: 20px;
+}
+
+nav a{
+	color: aliceblue;
+	font-weight: bold;
+	font-size: 25px;
+	text-decoration: none;
+	min-width: 150px;
+	height: 50px;
+	text-align: center;
+	float: left;
+	line-height: 50px;
+}
+
+nav a:hover{
+	color: brown;
+	background-color: aliceblue;
+}
+nav div{
+    float: right;
+    height: 40px;
+    width: 40px;
+    background-color: #fff;
+    margin: 5px;
+    background-size: cover;
+    position: relative;
+}
+nav div:hover{
+    opacity: 0.8;
+}
+
+nav div .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: brown;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  right: 0%;
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+nav div .tooltiptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+nav div:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+
+nav .history{
+    float: right;
+    color: aliceblue;
+	font-size: 20px;
+	text-decoration: none;
+	width: auto;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+        font-weight: normal;
+}
+
+.containerMain .manager_menubar{
+    padding: 10px;
+}
+/*******************************************************************************/
+.body{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin: 10px 0px;
+}
+
+.body .manager{
+    position: relative;
+    box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    float: left;
+    width: 40%;
+    margin: 60px;
+    height: 200px;
+    overflow: hidden;
+    background-color: #fff;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+
+}
+.body .manager .text{
+    color: white;
+    background: crimson;
+  font-size: 40px;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+}
+.body .manager .text:hover{
+    opacity: 0.8;
+}
+
+/*///////////=================================================================*/
+footer{
+	background-color: #76323F;
+	width: 100%;
+	height: 400px;
+	clear: both;
+	color: aliceblue;
+}
+
+.footer_left
+{
+	width: 25%;
+	height: 100%;
+	float: left;
+	
+}
+.footer_center1
+{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+.footer_center2
+{
+	width: 25%;
+	height: 100%;
+	float: left;
+}
+
+.footer_right
+{
+	width: 20%;
+	height: 100px;
+	float: right;
+	margin-top: 40px;
+	text-align: center;
+}
+
+ul
+{
+	list-style-type: square;
+	padding-top: 20px;
+}
+
+ul li
+{
+	font-size: 16px;
+	line-height: 30px;
+}
+
+/*manager============================================================*/

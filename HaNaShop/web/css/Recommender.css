@@ -1,0 +1,56 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 28, 2020, 7:31:06 PM
+    Author     : SE130204
+*/
+
+.recommemder{
+    width: 100%;
+    margin-top: 30px;
+    min-height: 380px;
+    float: left;
+    background: #fff;
+    border: solid 5px #000;
+    display: inline-block;
+    position: relative;
+}
+
+.recommemder .recTittle{
+    background: crimson;
+    color: white;
+    padding: 5px;
+}
+
+.recommemder .recItem{
+    width: 200px;
+    float: left;
+    margin: 10px;
+    border: #000 1px solid;
+    position: relative;
+    overflow: hidden;
+}
+
+.recommemder .recItem img{
+    width: 200px;
+    height: 100px;
+}
+.recommemder .recItem input[type=checkbox]{
+    width: 40px;
+    height: 40px;
+}
+.recommemder .recItem input[type=submit]{
+    width: 100px;
+    font-size: 20px;
+    background: crimson;
+    color: white;
+    border: 1px solid black;
+}
+
+.recommemder .recItem .recPrice{
+    color: green;
+    text-align: right;
+}

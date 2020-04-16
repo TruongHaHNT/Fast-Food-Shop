@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 15, 2020, 5:07:43 AM
+    Author     : SE130204
+*/
+.Pagging{
+    width: 100%;
+    float: top;
+    background: goldenrod;
+    overflow: auto;
+}
+.Pagging .pagecontainer{
+    float: right;
+    background: goldenrod;
+    margin: 20px;
+    overflow: auto;
+}
+#selected{
+    background-color: crimson;
+    color: #fff;
+}
+.Pagging input{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: #000 solid 1px;
+}
+
+.Pagging #displayPage{
+    float: left;
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    border: #000 solid 1px;
+    margin-left: 40px;
+}
+
+.Pagging input:hover{
+    opacity: 0.8
+}
